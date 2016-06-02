@@ -7,7 +7,7 @@ shows optimism and trust in ethereum to create such a contract.
 _This is work in progress - do not use it, yet!_
 
 ## Rationale
-Many times when a child is baptized the godparent will give a present to the baby. 
+Usually, when a child is baptized the godparent will give a present to the baby. 
 Since babies usually don't care much for presents, the gift often is money or a savings account. 
 When the kid grows up it can then benefit (e.g. when turning 18).
 
@@ -18,4 +18,5 @@ When the kid grows up it can then benefit (e.g. when turning 18).
  - There should be an option for the godparent to get back the money 5 or 10 years after the payout date.
 - Should there be an option for emergency payout even before the set payout date?
 - The legacy message left by the godparent could be encrypted using the public key of the child account (see https://bitcointalk.org/index.php?topic=627927.0 ). So they are not visible for anyone else looking at the contract on the blockchain. Of course - if the beneficiary wanted to she/he could look at the message anytime. Any ideas for making this trustless?
+- There is no interest rate - we can only hope in 18 years ethereum is worth more than now...
 
