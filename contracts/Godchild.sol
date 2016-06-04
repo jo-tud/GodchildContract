@@ -7,7 +7,7 @@ contract Godchild {
     modifier onlyBeneficiary {if (msg.sender != beneficiary) throw; _}    
     modifier onlyOwner {if (msg.sender != owner) throw; _} 
     
-	function MetaCoin(string _message, address _beneficiary) {
+    function Godchild(string _message, address _beneficiary) {
 		owner = msg.sender;
 		message = _message;
 		beneficiary = _beneficiary;
